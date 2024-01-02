@@ -7,9 +7,11 @@ specifiers:
   nuxt: ^3.9.0
   vue: ^3.4.0
   vue-router: ^4.2.5
+  vuedraggable: ^2.24.3
 
 dependencies:
   '@formkit/auto-animate': 0.8.1
+  vuedraggable: 2.24.3
 
 devDependencies:
   '@nuxt/devtools': 1.0.6_nuxt@3.9.0
@@ -5562,6 +5564,10 @@ packages:
       smart-buffer: 4.2.0
     dev: true
 
+  /sortablejs/1.10.2:
+    resolution: {integrity: sha512-YkPGufevysvfwn5rfdlGyrGjt7/CRHwvRPogD/lC+TnvcN29jDpCifKP+rBqf+LRldfXSTh+0CGLcSg0VIxq3A==}
+    dev: false
+
   /source-map-js/1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
@@ -6438,6 +6444,12 @@ packages:
       '@vue/server-renderer': 3.4.3_vue@3.4.3
       '@vue/shared': 3.4.3
     dev: true
+
+  /vuedraggable/2.24.3:
+    resolution: {integrity: sha512-6/HDXi92GzB+Hcs9fC6PAAozK1RLt1ewPTLjK0anTYguXLAeySDmcnqE8IC0xa7shvSzRjQXq3/+dsZ7ETGF3g==}
+    dependencies:
+      sortablejs: 1.10.2
+    dev: false
 
   /webidl-conversions/3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
