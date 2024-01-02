@@ -1,11 +1,15 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@formkit/auto-animate': ^0.8.1
   '@nuxt/devtools': ^1.0.6
   '@nuxtjs/tailwindcss': ^6.10.3
   nuxt: ^3.9.0
   vue: ^3.4.0
   vue-router: ^4.2.5
+
+dependencies:
+  '@formkit/auto-animate': 0.8.1
 
 devDependencies:
   '@nuxt/devtools': 1.0.6_nuxt@3.9.0
@@ -617,6 +621,10 @@ packages:
     resolution: {integrity: sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==}
     engines: {node: '>=14'}
     dev: true
+
+  /@formkit/auto-animate/0.8.1:
+    resolution: {integrity: sha512-0/Z2cuNXWVVIG/l0SpcHAWFhGdvLJ8DRvEfRWvmojtmRWfEy+LWNwgDazbZqY0qQYtkHcoEK3jBLkhiZaB/4Ig==}
+    dev: false
 
   /@ioredis/commands/1.2.0:
     resolution: {integrity: sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==}
