@@ -6,12 +6,18 @@ export default defineNuxtConfig({
     "@formkit/auto-animate",
     "radix-vue",
     "nuxt-icon",
+    "@nuxtjs/google-fonts",
   ],
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+    },
+  },
+  googleFonts: {
+    families: {
+      Manrope: true,
     },
   },
 })
