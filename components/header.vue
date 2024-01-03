@@ -15,7 +15,7 @@ export default {
         <Logo />
         <div class="menus">
             <ul class="flex flex-row gap-8">
-                <li class="text-accent font-medium" v-for="menuItem in menuItems" :key="menuItem.id">
+                <li class="text-accent font-medium hover:underline hover:cursor-pointer" v-for="menuItem in menuItems" :key="menuItem.id">
                     <NuxtLink to="menuItem.path">
                         {{ menuItem.label }}
                     </NuxtLink>
