@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "radix-vue",
     "nuxt-icon",
     "@nuxtjs/google-fonts",
+    "@nuxt/image"
   ],
   css: ["~/assets/css/main.css"],
   postcss: {
