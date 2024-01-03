@@ -21,6 +21,7 @@
     "nuxt-icon": "^0.6.8",
     "radix-vue": "^1.2.5",
     "vite": "^5.0.10",
+    "volar-service-vetur": "^0.0.17",
     "vuedraggable": "^2.24.3"
   }
 }
