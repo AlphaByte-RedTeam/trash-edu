@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <div class="w-full py-6 px-32 text-2xl bg-secondary flex flex-row justify-between">
+    <div class="w-full py-6 px-32 text-2xl m-0 sticky top-0 z-50 shadow-md bg-secondary flex flex-row justify-between">
         <Logo />
         <div class="menus">
             <ul class="flex flex-row gap-8">
