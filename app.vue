@@ -9,6 +9,7 @@ const layout = () => import("~/layouts/default.vue")
         <Hero />
         <WatchVideo />
         <WasteTypes />
+        <WasteSort />
       </div>
     </NuxtLayout>
   </div>
