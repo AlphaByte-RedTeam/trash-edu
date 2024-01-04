@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@formkit/auto-animate",
-    "radix-vue",
+    // "radix-vue",
     "nuxt-icon",
     "@nuxtjs/google-fonts",
     "@nuxt/image",

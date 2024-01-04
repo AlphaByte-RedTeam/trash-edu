@@ -1,13 +1,23 @@
 <script lang="ts">
 const layout = () => import("~/layouts/default.vue")
-// export default {
-//   layout,
-//   data() {
-//     return {
-//       layout: "default",
-//     }
-//   },
-// }
+const Hero = () => import("~/components/hero.vue")
+const WatchVideo = () => import("~/components/watchVideo.vue")
+const WasteTypes = () => import("~/components/wasteTypes.vue")
+const WasteSort = () => import("~/components/wasteSort.vue")
+export default {
+  layout,
+  components: {
+    Hero,
+    WatchVideo,
+    WasteTypes,
+    WasteSort,
+  },
+  data() {
+    return {
+      layout: "default",
+    }
+  },
+}
 </script>
 
 <template>
