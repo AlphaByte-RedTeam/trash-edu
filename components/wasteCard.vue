@@ -23,7 +23,7 @@ export default {
 
 <template>
     <div class="flex flex-row gap-6 p-4 justify-center items-center rounded-2xl w-[616px] h-[268px] bg-[#606264]" :style="{ backgroundColor: bgColor }">
-        <NuxtImg :src="imgSrc"  height="150" />
+        <NuxtImg :src="imgSrc"  height="150" width="150" />
         <div class="flex flex-col gap-4">
             <div class="flex flex-col gap-4 text-white">
                 <h2 class="text-3xl font-semibold">{{ titleName }}</h2>
