@@ -3,6 +3,7 @@ const layout = () => import("~/layouts/default.vue")
 const Hero = () => import("~/components/hero.vue")
 const WatchVideo = () => import("~/components/watchVideo.vue")
 const WasteTypes = () => import("~/components/wasteTypes.vue")
+const WasteRecycle = () => import("~/components/wasteRecycle.vue")
 const WasteSort = () => import("~/components/wasteSort.vue")
 export default {
   layout,
@@ -10,6 +11,7 @@ export default {
     Hero,
     WatchVideo,
     WasteTypes,
+    WasteRecycle,
     WasteSort,
   },
   data() {
@@ -27,6 +29,7 @@ export default {
         <Hero />
         <WatchVideo />
         <WasteTypes />
+        <WasteRecycle />
         <WasteSort />
       </div>
     </NuxtLayout>
