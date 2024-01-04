@@ -1,13 +1,13 @@
 <script lang="ts">
 const layout = () => import("~/layouts/default.vue")
-export default {
-  layout,
-  data() {
-    return {
-      layout: "default",
-    }
-  },
-}
+// export default {
+//   layout,
+//   data() {
+//     return {
+//       layout: "default",
+//     }
+//   },
+// }
 </script>
 
 <template>
