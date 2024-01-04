@@ -20,7 +20,6 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@formkit/auto-animate": "^0.8.1",
     "nuxt-icon": "^0.6.8",
     "vite": "^5.0.10",
     "volar-service-vetur": "^0.0.17",
