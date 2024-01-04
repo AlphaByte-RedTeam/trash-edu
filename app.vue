@@ -1,5 +1,8 @@
 <script lang="ts">
 const layout = () => import("~/layouts/default.vue")
+export default {
+  layout,
+}
 </script>
 
 <template>
