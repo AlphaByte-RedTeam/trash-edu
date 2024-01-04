@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-    <div class="px-32 flex flex-row pb-8 justify-between">
+    <div class="px-32 py-16 flex flex-row pb-8 justify-between">
         <div class="flex flex-col">
             <h1 class="text-center font-bold text-xl bg-white text-black py-2">Waste Items</h1>
             <dragggable class="bg-secondary w-48" group="wastes" :list="list1" @change="log">
