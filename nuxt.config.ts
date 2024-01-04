@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxtjs/tailwindcss",
-    "@formkit/auto-animate",
     "nuxt-icon",
     "@nuxtjs/google-fonts",
     "@nuxt/image",
