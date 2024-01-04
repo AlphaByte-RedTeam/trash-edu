@@ -29,10 +29,6 @@ export default {
                 <h2 class="text-3xl font-semibold">{{ titleName }}</h2>
                 <p class="text-lg">{{ desc }}</p>
             </div>
-            <div class="flex flex-row gap-2 justify-center items-center text-white text-sm ">
-                <p>Click to show the recycling step</p>
-                <Icon name="iconoir:arrow-right-circle-solid" size="24px" />
-            </div>
         </div>
     </div>
 </template>
