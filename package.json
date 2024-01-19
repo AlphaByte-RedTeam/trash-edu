@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "nuxt-icon": "^0.6.8",
-    "vite": "^5.0.10",
+    "vite": "^5.0.12",
     "volar-service-vetur": "^0.0.17",
     "vuedraggable": "^2.24.3"
   }
